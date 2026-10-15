@@ -1,0 +1,19 @@
+# 依存
+node_modules/
+infra/node_modules/
+
+# ローカルの接続情報（AWSプロファイル名・Secret名など）
+.env
+
+# アクセスカウンタの永続化ファイル
+counter.json
+
+# CDK の生成物（アカウントIDやアセット情報を含むため非コミット）
+infra/cdk.out/
+
+# 内部タスク管理メタデータ（実アカウント情報等を含むため非コミット）
+.agents/
+
+# OS/エディタ
+.DS_Store
+Thumbs.db
